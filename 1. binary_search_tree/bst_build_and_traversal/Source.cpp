@@ -14,28 +14,6 @@ public:
 	BSTree() : root(0) {}
 
 	void InsertNode(const int& x) {
-		/*if (!root) {
-			root = new Node(x);
-		}
-		else {
-			Node* current = root;
-			while (current != nullptr) {
-				if (x > current->value && current->right != nullptr) {
-					current = current->right;
-				}
-				else if (x > current->value && current->right == nullptr) {
-					current->right = new Node(x);
-					break;
-				}
-				else if (x < current->value && current->left != nullptr) {
-					current = current->left;
-				}
-				else if (x < current->value && current->left == nullptr) {
-					current->left = new Node(x);
-					break;
-				}
-			}
-		}*/
 		Node** cur = &root;
 		while (*cur) {
 			Node& node = **cur;
