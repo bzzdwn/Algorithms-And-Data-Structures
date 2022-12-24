@@ -21,7 +21,6 @@ Output:
 ```
 0
 ```
-![image](https://user-images.githubusercontent.com/93089691/209439143-71312a79-8503-41d2-a323-bd8bd3b8f984.png)
 Input:
 ```
 3
